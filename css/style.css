@@ -1,52 +1,216 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
 
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
 
-blockquote::before, blockquote::after,
-q::before, q::after {
-	content: '';
-	content: none;
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Do not write a css rule above here! Use the space below  */
 
-
 /* Write your css below here */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+main {
+    width: 800px;
+    padding-top: 15px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(233 139 16);
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex: 1;
+    width: fit-content;
+    margin-left: auto;
+}
+
+aside {
+    width: 300px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: darkgoldenrod;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: rgb(56 54 54);
+    padding: 15px 0;
+}
+
+.headerheader {
+    font-size: 50px;
+    color: crimson;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mainheader1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138 11 36);
+}
+
+.mainheader2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(139 49 67);
+    padding: 10px 0;
+}
+
+.asideheader {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: #7c162b69;
+    font-size: 50px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: inherit;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightslategrey;
+}
