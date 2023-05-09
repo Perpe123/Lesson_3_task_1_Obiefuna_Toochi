@@ -1,5 +1,7 @@
 ##A blog website- Pep's Health Blog (for desktop view only)
 
+##Link to live site- https://perpe123.github.io/Lesson_3_task_1_Obiefuna_Toochi/
+
 ##How to run/test this project
 
 ##ensure you have git installed properly on your machine
