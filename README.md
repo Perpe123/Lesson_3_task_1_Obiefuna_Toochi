@@ -1,4 +1,4 @@
-##A blog website- Pep's Health Blog
+##A blog website- Pep's Health Blog (for desktop view only)
 
 ##How to run/test this project
 
