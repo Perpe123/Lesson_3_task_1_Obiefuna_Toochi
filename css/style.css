@@ -186,6 +186,7 @@ aside {
         "Lucida Sans", Arial, sans-serif;
 	text-align: justify;
     margin: 60px 0;
+    border-radius: 10px;
 }
 
 footer {
@@ -243,10 +244,6 @@ a:hover {
         width: 500px;
     }
 
-    aside{
-        width: 300px;
-    }
-
     a{
         margin-right: 10px;
     }
@@ -261,7 +258,6 @@ a:hover {
     section{
         display: flex;
         flex-direction: column;
-        width: 400px;
     }
     
     main{
@@ -270,8 +266,9 @@ a:hover {
     }
 
     aside{
-        text-align:center;
-        width: 100%;
+        text-align:justify;
+        width: 90%;
+        margin: 1rem auto;
     }
 
 }
@@ -279,22 +276,19 @@ a:hover {
 @media screen and (width<=460px){
     a{
         display: flex;
-        /* flex-direction: columns; */
     }
     section{
         display: flex;
         flex-direction: column;
-        width: 300px;
     }
     
     main{
-        text-align:center;
+        text-align: justify;
         width: 100%;
     }
 
     aside{
         text-align:center;
-        width: 100%;
     }
 
     .mainheader2{
